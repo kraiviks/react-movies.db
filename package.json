@@ -41,5 +41,9 @@
       "last 1 safari version"
     ]
   },
-    "homepage": "https://kraiviks.github.io/react-movie.db"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraiviks/react-movies.db.git"
+  },
+    "homepage": "https://kraiviks.github.io/react-movies.db/"
 }
