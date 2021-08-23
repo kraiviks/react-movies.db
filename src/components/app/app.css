@@ -15,7 +15,7 @@
 	display: grid;
 	justify-content: center;
 	gap: 20px;
-	grid-template: repeat(4, 400px) / repeat(4, 250px);
+	grid-template: repeat(4, 1fr) / repeat(4, 1fr);
 	height: 100%;
 	width: 100%;
 }
@@ -23,8 +23,7 @@
 .card {
 	display: flex;
 	gap: 10px;
-	width: 200px;
-	height: 250px;
+	justify-content: flex-end;
 }
 
 .card-title{

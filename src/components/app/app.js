@@ -17,7 +17,7 @@ import axios from "axios";
 
 const App = () => {
 	const [data, setData] = useState([]);
-	useEffect((v) => getApi("Hello"), []);
+	useEffect((v) => getApi("The fast and"), []);
 	const getApi = async (film) => {
 		return await axios(
 			`https://www.omdbapi.com/?s=${film}&apikey=d869b50f`
@@ -51,6 +51,7 @@ const App = () => {
 		<div className="app">
 			<Container>
 				<Title />
+				
 				<InputGroup>
 					<InputGroupAddon addonType="prepend">
 						<InputGroupText>Enter film name</InputGroupText>
