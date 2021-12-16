@@ -51,10 +51,10 @@ const App = () => {
 		<div className="app">
 			<Container>
 				<Title />
-				
+
 				<InputGroup>
 					<InputGroupAddon addonType="prepend">
-						<InputGroupText>Enter film name</InputGroupText>
+						<InputGroupText>Enter film name:</InputGroupText>
 					</InputGroupAddon>
 					<Input
 						placeholder="film"
